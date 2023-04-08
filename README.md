@@ -1,4 +1,5 @@
-**My leetcode solutions**
+**My LeetCode Solutions**
 
-Easy:
-Two sum: <a href = "Solutions/Two Sum"> Two Sum </a>
+## Easy:
+
+- [Two Sum](Solutions/Two%20Sum)
