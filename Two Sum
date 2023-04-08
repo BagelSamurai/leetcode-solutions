@@ -4,16 +4,16 @@ class Solution
 public:
     vector<int> twoSum(vector<int> &nums, int target)
     {
-        unordered_map<int, int> mp;
+        unordered_map<int, int> mp; 
 
         for (int i = 0; i < nums.size(); i++)
         {
-            int complement = target - nums[i];
-            if (mp.count(complement))
+            int complement = target - nums[i]; // Get complement of the number which adds upto target
+            if (mp.count(complement)) // If the complement exists in the map return their index
                 return {mp[complement], i};
-            mp[nums[i]] = i;
+            mp[nums[i]] = i; // Create a key-value pair of the number and index respectively.
         }
 
-        return {};
+        return {}; // Return null
     }
 };
